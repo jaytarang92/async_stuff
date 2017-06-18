@@ -4,7 +4,7 @@ from asyncio import get_event_loop
 from asyncio import set_event_loop_policy
 from uvloop import EventLoopPolicy
 
-proxy_config = 'http://proxy.compaq.com:8080'
+proxy_config = 'http://throw.proxy.here.com'
 url_to_target = [
     'https://jsonplaceholder.typicode.com/posts',
     'http://surveycodebot.com/person/generate'
